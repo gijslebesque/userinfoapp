@@ -1,0 +1,11 @@
+html
+	head
+		title Search form
+	body
+		h1 Here you can search for users or whatever.
+		form(action='/search', method='post')
+			| Search user: 
+			input(type='text', name='searchedName')
+			br
+				
+			input(type='submit', value='Submit')

@@ -1,0 +1,24 @@
+{
+  "name": "userinfoapp",
+  "version": "1.0.0",
+  "description": "My lovely app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gijslebesque/userinfoapp.git"
+  },
+  "author": "Gijs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gijslebesque/userinfoapp/issues"
+  },
+  "homepage": "https://github.com/gijslebesque/userinfoapp#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "express": "^4.14.1",
+    "pug": "^2.0.0-beta11"
+  }
+}
